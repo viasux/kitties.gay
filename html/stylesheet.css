@@ -1,7 +1,7 @@
 @import "animations.css";
 @font-face{
   font-family: MyAveria;
-  src:url(../fonts/AveriaSerifLibre-Regular.ttf)
+  src:url(fonts/AveriaSerifLibre-Regular.ttf)
 }
 
 /* The navigation bar */
