@@ -1,0 +1,199 @@
+@import "animations.css";
+@font-face{
+  font-family: MyAveria;
+  src:url(../fonts/AveriaSerifLibre-Regular.ttf)
+}
+
+/* The navigation bar */
+.navbar {
+  overflow: visible;
+  background-color: #1b0026;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0%; /* Position the navbar at the top of the page */
+  width: 65%;
+  display: flex;
+  justify-content: center;
+  left: 17.5%;
+  border-bottom-left-radius: 10vi;
+  border-bottom-right-radius: 10vi;
+}
+  
+/* Links inside the navbar */
+.navbar a {
+  float: center;
+  display: block;
+  color: #d8dee9;
+  text-align:#d8dee9 center;
+  padding: 1% 1%;
+  text-decoration: none;
+}
+
+.navbar a:visited {
+  float: center;
+  display: block;
+  color: #d8dee9;
+  text-align:#d8dee9 center;
+  padding: 1% 1%;
+  text-decoration: none;
+}
+  
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #d8dee9;
+  color: #1b0026;
+}
+  
+/* Main content */
+
+.flex-container {
+  display: inline-flex;
+  margin: 0;
+  gap: 0;
+}
+
+.introimg {
+  border: 5px solid rgb(140, 164, 204);
+  border-radius: 50%;
+  margin-bottom: 15%;
+}
+
+.introdesc {
+  animation-name: textslide;
+  animation-duration: 1s;
+  margin-left: 2.5%;
+}
+
+.introh1 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.introp1 {
+  margin-top: 1%;
+}
+
+.socials > a > img {
+  min-width: 10px;
+  width: 1.2vi;
+  height: 1.2vi;
+  background: #e6e6e6;
+  outline: rgb(140, 164, 204);
+  outline-width: 1px;
+  outline-style: double;
+  border-radius: 0.25vi;
+  margin-bottom: 3%;
+}
+
+.socials a:hover {
+  text-decoration: none;
+}
+
+.youtube {
+  animation-name: bottomslide, fade;
+  animation-duration: 1s, 3s;
+  border-radius: 2vi;
+  margin-bottom: 3%;
+}
+
+.twitch {
+  animation-name: fade;
+  animation-duration: 4s;
+  border-radius: 2vi;
+  margin-bottom: 6%;
+}
+
+body {
+    display: block;
+    font-family: MyAveria;
+    color: #d8dee9;
+    background-color: #381958;
+    /* position: absolute; */
+    margin: 0% 28% 0%;
+    margin-top: 5%;
+}
+
+iframe {
+  max-width: 100%;
+  max-height: 100%;
+  min-width: 100%;
+}
+
+/* The footer */
+.footer {
+  overflow: hidden;
+  text-align: center;
+  background-color: #1b0026;
+  position: fixed; /* Set the navbar to fixed position */
+  /* bottom: -15ch; Position the navbar at the bottom of the page */
+  bottom: -800vi;
+  left: 17.5%;
+  width: 65%;
+  display: block;
+  justify-content: center;
+  border-top-left-radius: 2vi;
+  border-top-right-radius: 2vi;
+}
+
+#open:target {
+  position: fixed;
+  bottom: 0%;
+  overflow: hidden;
+}
+
+.badges {
+  padding-top: 2%;
+  padding-bottom: 0;
+}
+
+.fauxfooter {
+  overflow: hidden;
+  text-align: center;
+  background-color: #1b0026;
+  position: fixed; /* Set the navbar to fixed position */
+  /* bottom: -15ch; Position the navbar at the bottom of the page */
+  bottom: 0;
+  left: 17.5%;
+  width: 65%;
+  display: block;
+  justify-content: center;
+  padding-bottom: 1%;
+  border-top-left-radius: 10vi;
+  border-top-right-radius: 10vi;
+}
+
+.fauxfooter a {
+  color: #00cbc7;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.footer a {
+  color: #00cbc7;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/* Links */
+a:link {
+  color: #00cbc7;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #f302f7;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #aeffdf;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #b800fe;
+  background-color: transparent;
+  text-decoration: underline;
+}

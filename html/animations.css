@@ -1,0 +1,201 @@
+/* Left side */
+@keyframes textslide {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 2.5%;
+      width: 100%;
+    }
+  }
+  
+@keyframes slide {
+  from {
+    top: -3vi;
+  }
+  to {
+    top: 130%;
+  }
+}
+
+@keyframes bottomslide {
+  from {
+    margin-top: 20vi;
+  }
+  to {
+    margin-top: 0vi;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
+  .bubbles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 127%;
+    overflow: hidden;
+  }
+  
+  .bubbles  > span {
+    position: absolute;
+    background-color: #1b0026;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .bubble2 {
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-name: slide;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    left: 13%;
+    top: -10vi;
+    width: 0.5vi;
+    height: 0.5vi;
+  }
+  .bubble4 {
+    animation-duration: 5s;
+    animation-name: slide;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    left: 100%;
+    top: -10vi;
+    width: 1vi;
+    height: 1vi;
+  }
+  .bubble6 {
+    animation-duration: 3s;
+    animation-name: slide;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    left: 80%;
+    top: -10vi;
+    width: 1.5vi;
+    height: 1.5vi;
+  }
+  .bubble1 {
+    animation-delay: 0.6s;
+    animation-duration: 6s;
+    animation-name: slide;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    left: 70%;
+    top: -10vi;
+    width: 2vi;
+    height: 2vi;
+  }
+  .bubble5 {
+    animation-duration: 2.4s;
+    animation-name: slide;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    left: 24%;
+    top: -10vi;
+    width: 2.5vi;
+    height: 2.5vi;
+  }
+  .bubble3 {
+    animation-delay: 1s;
+    animation-duration: 4s;
+    animation-name: slide;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    left: 40%;
+    top: -10vi;
+    width: 3vi;
+    height: 3vi;
+  }
+
+  /* Right side */
+
+  .bubbles2 {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20%;
+    height: 127%;
+  }
+  
+  .bubbles2  > span {
+    position: absolute;
+    background-color: #1b0026;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .bubble7 {
+    animation-delay: 2s;
+    animation-duration: 2s;
+    animation-name: slide;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    right: 13%;
+    top: -10vi;
+    width: 0.5vi;
+    height: 0.5vi;
+  }
+  .bubble8 {
+    animation-duration: 5s;
+    animation-name: slide;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    right: 80%;
+    top: -10vi;
+    width: 1vi;
+    height: 1vi;
+  }
+  .bubble9 {
+    animation-duration: 3s;
+    animation-name: slide;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    right: 100%;
+    top: -10vi;
+    width: 1.5vi;
+    height: 1.5vi;
+  }
+  .bubble10 {
+    animation-delay: 0.4s;
+    animation-duration: 4s;
+    animation-name: slide;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    right: 70%;
+    top: -10vi;
+    width: 2vi;
+    height: 2vi;
+  }
+  .bubble11 {
+    animation-duration: 2.4s;
+    animation-name: slide;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    right: 40%;
+    top: -10vi;
+    width: 2.5vi;
+    height: 2.5vi;
+  }
+  .bubble12 {
+    animation-delay: 1s;
+    animation-duration: 4s;
+    animation-name: slide;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    right: 20%;
+    top: -10vi;
+    width: 3vi;
+    height: 3vi;
+  }
