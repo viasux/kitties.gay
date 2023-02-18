@@ -4,6 +4,10 @@
   src:url(fonts/AveriaSerifLibre-Regular.ttf)
 }
 
+html {
+  font-family: MyAveria, sans-serif;
+}
+
 /* The navigation bar */
 .navbar {
   overflow: visible;
