@@ -4,6 +4,12 @@
   src:url(fonts/AveriaSerifLibre-Regular.ttf)
 }
 
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
 html {
   font-family: MyAveria, sans-serif;
 }
